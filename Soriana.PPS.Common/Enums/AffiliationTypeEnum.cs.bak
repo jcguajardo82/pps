@@ -4,7 +4,6 @@
     {
         Default = 0,
         EvoPayment = 1,
-        GetNet = 2,
-        Setc=3
+        GetNet = 2
     }
 }

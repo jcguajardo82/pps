@@ -148,9 +148,6 @@ namespace Soriana.PPS.PaymentOrderProcess.Services
             await _SavePaymentOrderService.InsertPaymentOrderAsync(paymentOrderProcessRequest);
             // Step 4.- Dividir orden por Grocery y NonGrocery.
             _SplitPaymentOrderService.SplitPaymentOrderByMerchandiseType(paymentOrderProcessRequest, out PaymentOrderProcessRequest paymentOrderProcessRequestGrocery, out PaymentOrderProcessRequest paymentOrderProcessRequestNonGrocery);
-            
-            paymentOrderProcessRequestGrocery.AffiliationType = AffiliationTypeEnum.Setc;
-            
             // Step 5.- Establecer secuencia de transaciones de ordenes
             IList<PaymentOrderProcessRequest> paymentOrderProcessRequestList = _SequencePaymentOrderTransactionService.GetSequencePaymentOrderTransaction(paymentOrderProcessRequestGrocery, paymentOrderProcessRequestNonGrocery);
             ///
@@ -330,7 +327,7 @@ namespace Soriana.PPS.PaymentOrderProcess.Services
                             paymentTransactionRequest.TransactionStatus = transactionResponse.Status;
                             paymentTransactionRequest.PaymentTransactionService = ServicesEnum.CapturePayment.ToString();
                             await _SavePaymentTransactionStatusService.InsertPaymentTransactionStatusAsync(paymentTransactionRequest);
-                            if (!transactionResponse!.IsValid)
+                            if (transactionResponse!.IsValid)
                             {
                                 ///
                                 ///PENDIENTE: Escenario de Rollback

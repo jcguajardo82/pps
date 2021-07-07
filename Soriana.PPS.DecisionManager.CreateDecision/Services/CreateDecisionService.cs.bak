@@ -1,12 +1,7 @@
 ﻿using AutoMapper;
-using AutoMapper.Configuration;
-using CyberSource.Api;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
-using Soriana.PPS.Common.Configuration;
 using Soriana.PPS.Common.Constants;
-using Soriana.PPS.Common.DTO.Cybersource.Payments;
 using Soriana.PPS.Common.DTO.Common;
 using Soriana.PPS.Common.DTO.Cybersource.DecisionManager;
 using Soriana.PPS.Common.Enums;
@@ -25,38 +20,21 @@ namespace Soriana.PPS.DecisionManager.CreateDecision.Services
         private readonly ILogger<CreateDecisionService> _Logger;
         private readonly IDecisionManagerAPI _DecisionManagerAPI;
         private readonly IMapper _Mapper;
-
-        
-        private readonly CybersourceListOptions _Options;
-        private IPaymentsApi _PaymentsAPI;
         #endregion
         #region Constructors
         public CreateDecisionService(IDecisionManagerAPI decisionManagerAPI,
                                     IMapper mapper,
-                                    IOptions<CybersourceListOptions> options,                                    ILogger<CreateDecisionService> logger)
+                                    ILogger<CreateDecisionService> logger)
         {
             _Logger = logger;
             _Mapper = mapper;
-            _Options = options.Value;            
             _DecisionManagerAPI = decisionManagerAPI;
         }
         #endregion
-        private void SetPaymentsAPIInstanceByAffiliationType(DecisionManagerRequest paymentRequest)
-        {
-            
-            //if (Soriana.PPS.DecisionManager.CreateDecision.GeneralVar.IsRetrying)
-            {
-                CybersourceOptions cybersourceOptions = _Options.CybersourceOptions.Where(c => c.AffiliationType.ToLower() == Soriana.PPS.DecisionManager.CreateDecision.GeneralVar.afiliacion.ToString().ToLower()).FirstOrDefault();
-                if (cybersourceOptions != null)
-                    _PaymentsAPI = new PaymentsAPI(new ConfigurationAPI(cybersourceOptions.GetCybersourceConfiguration()));
-            }
-        }
-
+        #region Public Methods
         public async Task<DecisionManager201Response> CreateDecision(DecisionManagerRequest decisionManagerCaseRequest)
         {
             ValidateRequest(decisionManagerCaseRequest);
-            SetPaymentsAPIInstanceByAffiliationType(decisionManagerCaseRequest);
-
             _Logger.LogInformation(string.Format(WebAPIConstants.WEB_API_EXECUTE_MESSAGE, ServicesEnum.CreateDecisionManager.ToString()));
             _Logger.LogInformation(string.Format(WebAPIConstants.WEB_API_CALLING_WITH_DATA_REQUEST_MESSAGE, ServicesEnum.CreateDecisionManager.ToString(), JsonConvert.SerializeObject(decisionManagerCaseRequest)));
             DecisionManager201Response decisionResponse = _Mapper.Map<DecisionManager201Response>(await _DecisionManagerAPI.CreateBundledDecisionManagerCaseAsync(decisionManagerCaseRequest));

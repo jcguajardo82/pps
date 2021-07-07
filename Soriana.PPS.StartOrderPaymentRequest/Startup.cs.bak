@@ -90,7 +90,7 @@ namespace Soriana.PPS.PaymentOrderProcess
             builder.Services.AddScoped<IRepositoryRead<PaymentOrder>, RepositoryRead<PaymentOrder>>();
             builder.Services.AddScoped<IRepositoryCreate<PaymentTransactionJsonRequest>, RepositoryWrite<PaymentTransactionJsonRequest>>();
             builder.Services.AddScoped<IRepositoryRead<PaymentTransactionJsonRequest>, RepositoryRead<PaymentTransactionJsonRequest>>();
-            builder.Services.AddTransient<ICreateTableType, CreateTableTypeBase>();
+            builder.Services.AddSingleton<ICreateTableType, CreateTableTypeBase>();
             //DataAccess Service Injection -- Repositories
             builder.Services.AddScoped<IClientHasTokenRepository, ClientHasTokenRepository>();
             builder.Services.AddScoped<IPaymentTransactionRepository, PaymentTransactionRepository>();

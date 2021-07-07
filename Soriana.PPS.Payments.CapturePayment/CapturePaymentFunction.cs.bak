@@ -10,7 +10,6 @@ using Soriana.PPS.Common.Constants;
 using Soriana.PPS.Common.DTO.Common;
 using Soriana.PPS.Common.DTO.Cybersource.Payments;
 using Soriana.PPS.Common.DTO.Salesforce;
-using Soriana.PPS.Common.Enums;
 using Soriana.PPS.Payments.CapturePayment.Constants;
 using Soriana.PPS.Payments.CapturePayment.Services;
 using System;
@@ -20,13 +19,6 @@ using System.Threading.Tasks;
 
 namespace Soriana.PPS.Payments.CapturePayment
 {
-    public static class GeneralVar
-    {
-        public static AffiliationTypeEnum afiliacion { get; set; }
-        public static bool IsRetrying { get; set; }
-    }
-
-
     public class CapturePaymentFunction
     {
         #region Private Fields
@@ -57,10 +49,6 @@ namespace Soriana.PPS.Payments.CapturePayment
                 request.Body.Position = 0;
                 string jsonPaymentOrderProcessRequest = await new StreamReader(request.Body).ReadToEndAsync();
                 PaymentOrderProcessRequest paymentOrderProcessRequest = JsonConvert.DeserializeObject<PaymentOrderProcessRequest>(jsonPaymentOrderProcessRequest);
-
-                GeneralVar.afiliacion = paymentOrderProcessRequest.AffiliationType;
-                GeneralVar.IsRetrying = paymentOrderProcessRequest.IsRetrying;
-
                 capturesPaymentsRequest = _Mapper.Map<CapturesPaymentsRequest>(paymentOrderProcessRequest);
                 CapturesPayments201Response capturesPaymentsResponse = await _CapturePaymentService.CapturePayment(capturesPaymentsRequest);
                 return new OkObjectResult(capturesPaymentsResponse);

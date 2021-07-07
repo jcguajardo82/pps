@@ -1,10 +1,9 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Soriana.PPS.Common.Configuration;using Soriana.PPS.Common.Constants;
+using Soriana.PPS.Common.Constants;
 using Soriana.PPS.Common.DTO.Common;
 using Soriana.PPS.Common.DTO.Cybersource.PayerAuthentication;
-using Soriana.PPS.Common.DTO.Cybersource.Payments;using Soriana.PPS.Common.Enums;
+using Soriana.PPS.Common.Enums;
 using Soriana.PPS.Common.Services;
 using Soriana.PPS.PayerAuth.Enrollment.Constants;
 using System;
@@ -20,36 +19,21 @@ namespace Soriana.PPS.PayerAuth.Enrollment.Services
         private readonly ILogger<EnrollmentService> _Logger;
         private readonly IPayerAuthenticationAPI _PayerAuthenticationAPI;
         private readonly IMapper _Mapper;
-
-        private readonly CybersourceListOptions _Options;
-        private IPaymentsAPI _PaymentsAPI;
         #endregion
         #region Constructors
         public EnrollmentService(IPayerAuthenticationAPI payerAuthenticationAPI,
                                     IMapper mapper,
-                                    IOptions<CybersourceListOptions> options,                                    ILogger<EnrollmentService> logger)
+                                    ILogger<EnrollmentService> logger)
         {
             _Logger = logger;
             _Mapper = mapper;
-            _Options = options.Value;            _PayerAuthenticationAPI = payerAuthenticationAPI;
+            _PayerAuthenticationAPI = payerAuthenticationAPI;
         }
         #endregion
         #region Public Methods
-        private void SetPaymentsAPIInstanceByAffiliationType(EnrollmentRequest paymentRequest)
-        {
-            //if (Soriana.PPS.PayerAuth.Enrollment.GeneralVar.IsRetrying)
-            {
-                CybersourceOptions cybersourceOptions = _Options.CybersourceOptions.Where(c => c.AffiliationType.ToLower() == Soriana.PPS.PayerAuth.Enrollment.GeneralVar.afiliacion.ToString().ToLower()).FirstOrDefault();
-                if (cybersourceOptions != null)
-                    _PaymentsAPI = new PaymentsAPI(new ConfigurationAPI(cybersourceOptions.GetCybersourceConfiguration()));
-            }
-        }
-
-
         public async Task<Enrollment201Response> Enrollment(EnrollmentRequest enrollmentRequest)
         {
             ValidateRequest(enrollmentRequest);
-            SetPaymentsAPIInstanceByAffiliationType(enrollmentRequest);
             _Logger.LogInformation(string.Format(WebAPIConstants.WEB_API_EXECUTE_MESSAGE, ServicesEnum.CheckPayerAuthEnrollment.ToString()));
             Enrollment201Response enrollmentResponse = _Mapper.Map<Enrollment201Response>(await _PayerAuthenticationAPI.CheckPayerAuthEnrollmentAsync(enrollmentRequest));
             _Logger.LogInformation(string.Format(WebAPIConstants.WEB_API_EXECUTED_MESSAGE, ServicesEnum.CheckPayerAuthEnrollment.ToString()));

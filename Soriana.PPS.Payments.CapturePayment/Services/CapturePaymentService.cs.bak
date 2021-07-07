@@ -1,8 +1,7 @@
 ﻿using AutoMapper;
-using CyberSource.Api;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;using Newtonsoft.Json;
-using Soriana.PPS.Common.Configuration;using Soriana.PPS.Common.Constants;
+using Newtonsoft.Json;
+using Soriana.PPS.Common.Constants;
 using Soriana.PPS.Common.DTO.Common;
 using Soriana.PPS.Common.DTO.Cybersource.Payments;
 using Soriana.PPS.Common.Enums;
@@ -21,37 +20,21 @@ namespace Soriana.PPS.Payments.CapturePayment.Services
         private readonly ILogger<CapturePaymentService> _Logger;
         private readonly ICapturesAPI _CapturesAPI;
         private readonly IMapper _Mapper;
-
-        private readonly CybersourceListOptions _Options;
-        private IPaymentsApi _PaymentsAPI;
         #endregion
         #region Constructors
         public CapturePaymentService(ICapturesAPI capturesAPI,
                                         IMapper mapper,
-                                        IOptions<CybersourceListOptions> options,                                        ILogger<CapturePaymentService> logger)
+                                        ILogger<CapturePaymentService> logger)
         {
             _Logger = logger;
             _Mapper = mapper;
-            _Options = options.Value;
             _CapturesAPI = capturesAPI;
         }
         #endregion
         #region Public Methods
-        private void SetPaymentsAPIInstanceByAffiliationType(CapturesPaymentsRequest paymentRequest)
-        {
-            //if (Soriana.PPS.Payments.CapturePayment.GeneralVar.IsRetrying)
-            {
-                CybersourceOptions cybersourceOptions = _Options.CybersourceOptions.Where(c => c.AffiliationType.ToLower() == Soriana.PPS.Payments.CapturePayment.GeneralVar.afiliacion.ToString().ToLower()).FirstOrDefault();
-                if (cybersourceOptions != null)
-                    _PaymentsAPI = new PaymentsAPI(new ConfigurationAPI(cybersourceOptions.GetCybersourceConfiguration()));
-            }
-        }
-
         public async Task<CapturesPayments201Response> CapturePayment(CapturesPaymentsRequest capturesPaymentsRequest)
         {
             ValidateRequest(capturesPaymentsRequest);
-
-            SetPaymentsAPIInstanceByAffiliationType(capturesPaymentsRequest);            
             _Logger.LogInformation(string.Format(WebAPIConstants.WEB_API_EXECUTE_MESSAGE, ServicesEnum.CapturePayment.ToString()));
             _Logger.LogInformation(string.Format(WebAPIConstants.WEB_API_CALLING_WITH_DATA_REQUEST_MESSAGE, ServicesEnum.CapturePayment, JsonConvert.SerializeObject(capturesPaymentsRequest)));
             CapturesPayments201Response capturesPaymentsResponse = _Mapper.Map<CapturesPayments201Response>(await _CapturesAPI.CapturePaymentAsync(capturesPaymentsRequest, capturesPaymentsRequest.TransactionAuthorizationId));
