@@ -1,0 +1,8 @@
+C:\Develop\SorianaRepo\MonitorPagosV1\Soriana.ProcesadorPago\Soriana.ProcesadorPago.Common\obj\Debug\netcoreapp3.1\Soriana.ProcesadorPago.Common.AssemblyInfoInputs.cache
+C:\Develop\SorianaRepo\MonitorPagosV1\Soriana.ProcesadorPago\Soriana.ProcesadorPago.Common\obj\Debug\netcoreapp3.1\Soriana.ProcesadorPago.Common.AssemblyInfo.cs
+C:\Develop\SorianaRepo\MonitorPagosV1\Soriana.ProcesadorPago\Soriana.ProcesadorPago.Common\obj\Debug\netcoreapp3.1\Soriana.ProcesadorPago.Common.csproj.CoreCompileInputs.cache
+C:\Develop\SorianaRepo\MonitorPagosV1\Soriana.ProcesadorPago\Soriana.ProcesadorPago.Common\bin\Debug\netcoreapp3.1\Soriana.ProcesadorPago.Common.deps.json
+C:\Develop\SorianaRepo\MonitorPagosV1\Soriana.ProcesadorPago\Soriana.ProcesadorPago.Common\bin\Debug\netcoreapp3.1\Soriana.ProcesadorPago.Common.dll
+C:\Develop\SorianaRepo\MonitorPagosV1\Soriana.ProcesadorPago\Soriana.ProcesadorPago.Common\bin\Debug\netcoreapp3.1\Soriana.ProcesadorPago.Common.pdb
+C:\Develop\SorianaRepo\MonitorPagosV1\Soriana.ProcesadorPago\Soriana.ProcesadorPago.Common\obj\Debug\netcoreapp3.1\Soriana.ProcesadorPago.Common.dll
+C:\Develop\SorianaRepo\MonitorPagosV1\Soriana.ProcesadorPago\Soriana.ProcesadorPago.Common\obj\Debug\netcoreapp3.1\Soriana.ProcesadorPago.Common.pdb

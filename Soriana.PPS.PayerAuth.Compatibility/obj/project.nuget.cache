@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "3TGNPAtnGpBSa3D9F6bh9Uf498nmVANdGuJq/XNShQ5Z0+7iWb5aNkj/GnKgSSkJyR3VV0zJX0Fw7dUOUnHSUA==",
+  "success": true,
+  "projectFilePath": "D:\\Workspace\\ProcesadorPagos\\Codigo_PPS_3\\Soriana.PPS\\Soriana.PPS.PayerAuth.Compatibility\\Soriana.PPS.DecisionManager.Common.Compatibility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Roberto Villalba\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Roberto Villalba\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.15\\microsoft.extensions.dependencyinjection.abstractions.3.1.15.nupkg.sha512",
+    "C:\\Users\\Roberto Villalba\\.nuget\\packages\\microsoft.extensions.options\\3.1.15\\microsoft.extensions.options.3.1.15.nupkg.sha512",
+    "C:\\Users\\Roberto Villalba\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.15\\microsoft.extensions.primitives.3.1.15.nupkg.sha512",
+    "C:\\Users\\Roberto Villalba\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Roberto Villalba\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\Roberto Villalba\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
+    "C:\\Users\\Roberto Villalba\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\Roberto Villalba\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

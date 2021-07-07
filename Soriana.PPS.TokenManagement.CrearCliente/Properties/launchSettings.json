@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Soriana.ProcesadorPago.TokenManagement.CrearCliente": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7070 --pause-on-error --cors *"
+    }
+  }
+}

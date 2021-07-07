@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Soriana.PPS.TokenManagement.RetrieveCustomer": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7020 --pause-on-error --cors *"
+    }
+  }
+}

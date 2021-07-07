@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Workspace\\ProcesadorPagos\\Codigo_PPS_3\\Soriana.PPS\\Soriana.PPS.PayerAuth.Compatibility\\Soriana.PPS.DecisionManager.Common.Compatibility.csproj": {}
+  },
+  "projects": {
+    "D:\\Workspace\\ProcesadorPagos\\Codigo_PPS_3\\Soriana.PPS\\Soriana.PPS.DecisionManager.Common\\Soriana.PPS.DecisionManager.Common.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\ProcesadorPagos\\Codigo_PPS_3\\Soriana.PPS\\Soriana.PPS.DecisionManager.Common\\Soriana.PPS.DecisionManager.Common.csproj",
+        "projectName": "Soriana.PPS.DecisionManager.Common",
+        "projectPath": "D:\\Workspace\\ProcesadorPagos\\Codigo_PPS_3\\Soriana.PPS\\Soriana.PPS.DecisionManager.Common\\Soriana.PPS.DecisionManager.Common.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Workspace\\ProcesadorPagos\\Codigo_PPS_3\\Soriana.PPS\\Soriana.PPS.PayerAuth.Compatibility\\Soriana.PPS.DecisionManager.Common.Compatibility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\ProcesadorPagos\\Codigo_PPS_3\\Soriana.PPS\\Soriana.PPS.PayerAuth.Compatibility\\Soriana.PPS.DecisionManager.Common.Compatibility.csproj",
+        "projectName": "Soriana.PPS.DecisionManager.Common.Compatibility",
+        "projectPath": "D:\\Workspace\\ProcesadorPagos\\Codigo_PPS_3\\Soriana.PPS\\Soriana.PPS.PayerAuth.Compatibility\\Soriana.PPS.DecisionManager.Common.Compatibility.csproj",
+        "packagesPath": "C:\\Users\\Roberto Villalba\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\ProcesadorPagos\\Codigo_PPS_3\\Soriana.PPS\\Soriana.PPS.PayerAuth.Compatibility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Roberto Villalba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Workspace\\ProcesadorPagos\\Codigo_PPS_3\\Soriana.PPS\\Soriana.PPS.DecisionManager.Common\\Soriana.PPS.DecisionManager.Common.csproj": {
+                "projectPath": "D:\\Workspace\\ProcesadorPagos\\Codigo_PPS_3\\Soriana.PPS\\Soriana.PPS.DecisionManager.Common\\Soriana.PPS.DecisionManager.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+﻿namespace Soriana.PPS.Common.Enums
+{
+    public enum ProcessPaymentStatus201ReasonCodesEnum
+    {
+        AVS_FAILED = 0,
+        CONTACT_PROCESSOR = 1,
+        EXPIRED_CARD = 2,
+        PROCESSOR_DECLINED = 3,
+        INSUFFICIENT_FUND = 4,
+        STOLEN_LOST_CARD = 5,
+        ISSUER_UNAVAILABLE = 6,
+        UNAUTHORIZED_CARD = 7,
+        CVN_NOT_MATCH = 8,
+        EXCEEDS_CREDIT_LIMIT = 9,
+        INVALID_CVN = 10,
+        DECLINED_CHECK = 11,
+        BLACKLISTED_CUSTOMER = 12,
+        SUSPENDED_ACCOUNT = 13,
+        PAYMENT_REFUSED = 14,
+        CV_FAILED = 15,
+        INVALID_ACCOUNT = 16,
+        GENERAL_DECLINE = 17,
+        INVALID_MERCHANT_CONFIGURATION = 18,
+        DECISION_PROFILE_REJECT = 19,
+        SCORE_EXCEEDS_THRESHOLD = 20,
+        PENDING_AUTHENTICATION = 21,
+        ACH_VERIFICATION_FAILED = 22,
+        DECISION_PROFILE_REVIEW = 23,
+        CONSUMER_AUTHENTICATION_REQUIRED = 24,
+        CONSUMER_AUTHENTICATION_FAILED = 25,
+    }
+}

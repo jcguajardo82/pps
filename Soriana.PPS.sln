@@ -1,0 +1,121 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.PayerAuth.ValidateAuthentication", "Soriana.PPS.PayerAuth.ValidateAuthenticationResults\Soriana.PPS.PayerAuth.ValidateAuthentication.csproj", "{6B17B811-5CAE-40B0-826E-B8D7DC0B0136}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.Common", "Soriana.PPS.Common\Soriana.PPS.Common.csproj", "{FEC90AC9-11B5-4DA2-9B92-69B98BC6AD0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.PayerAuth.Enrollment", "Soriana.PPS.PayerAuth.EnrollWithPendAuth\Soriana.PPS.PayerAuth.Enrollment.csproj", "{EEB8735B-E1BD-4077-B072-08D76EA87D14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.TokenManagement.DeleteCustomer", "Soriana.PPS.TokenManagement.DeleteCustomer\Soriana.PPS.TokenManagement.DeleteCustomer.csproj", "{99FF8006-417F-4C94-8A36-944C0BE4B73D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.TokenManagement.RetrieveCustomer", "Soriana.PPS.TokenManagement.RetrieveCustomer\Soriana.PPS.TokenManagement.RetrieveCustomer.csproj", "{46C1B13E-DCB6-4976-A214-A18C23F789DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.PaymentOrderProcess", "Soriana.PPS.StartOrderPaymentRequest\Soriana.PPS.PaymentOrderProcess.csproj", "{EFE10ADE-5EF8-429C-8016-5FA4F2D7D7BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.DataAccess", "Soriana.PPS.DataAccess\Soriana.PPS.DataAccess.csproj", "{8AD9935C-8EBE-4B15-A229-200E46F320BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.DecisionManager.CreateDecision", "Soriana.PPS.DecisionManager.CreateDecision\Soriana.PPS.DecisionManager.CreateDecision.csproj", "{9CFD40B7-BD7B-44C5-992B-42419E4B05EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.Payments.ProcessPayment", "Soriana.PPS.Payments.ProcessPayment\Soriana.PPS.Payments.ProcessPayment.csproj", "{AC3CFB87-645F-42DF-973D-F4F18FF88EB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.Payments.CapturePayment", "Soriana.PPS.Payments.CapturePayment\Soriana.PPS.Payments.CapturePayment.csproj", "{EB0C7502-E4CE-4D8A-9547-E2EF85689F02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.Control.GenerateTransactionReference", "Soriana.PPS.Transaction.GenerateTransactionReference\Soriana.PPS.Control.GenerateTransactionReference.csproj", "{D3F4D069-70EA-4C5E-AD50-C3E9D18DA5DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.Security.GenerateToken", "Soriana.PPS.Transaction.GenerateToken\Soriana.PPS.Security.GenerateToken.csproj", "{45595A1D-EB4F-4A8F-8E83-43DF5F65C1C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.DecisionManager.Common.Compatibility", "Soriana.PPS.PayerAuth.Compatibility\Soriana.PPS.DecisionManager.Common.Compatibility.csproj", "{9B3533E1-B5E3-403C-93C7-A57378D64697}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.DecisionManager.NotifyAuthentication", "Soriana.PPS.DecisionManager.NotifyAuthentication\Soriana.PPS.DecisionManager.NotifyAuthentication.csproj", "{E9BF2B44-68FF-4BE9-A407-9AEE95CB904E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soriana.PPS.DecisionManager.Common", "Soriana.PPS.DecisionManager.Common\Soriana.PPS.DecisionManager.Common.csproj", "{6BEC53C0-4E2C-4A7F-81B7-FD2EDB66003F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.Common.Services", "Soriana.PPS.Common.Services\Soriana.PPS.Common.Services.csproj", "{335AC5F7-D7B2-4138-8F30-5070132A734F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soriana.PPS.PaymentOrderProcess.ClosureOrderGrocery", "Soriana.PPS.PaymentOrderProcess.ClosureOrderGrocery\Soriana.PPS.PaymentOrderProcess.ClosureOrderGrocery.csproj", "{A5AAD3A8-A803-40A2-B980-C5478D4BB9DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B17B811-5CAE-40B0-826E-B8D7DC0B0136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B17B811-5CAE-40B0-826E-B8D7DC0B0136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B17B811-5CAE-40B0-826E-B8D7DC0B0136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B17B811-5CAE-40B0-826E-B8D7DC0B0136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC90AC9-11B5-4DA2-9B92-69B98BC6AD0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC90AC9-11B5-4DA2-9B92-69B98BC6AD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC90AC9-11B5-4DA2-9B92-69B98BC6AD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC90AC9-11B5-4DA2-9B92-69B98BC6AD0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB8735B-E1BD-4077-B072-08D76EA87D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB8735B-E1BD-4077-B072-08D76EA87D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB8735B-E1BD-4077-B072-08D76EA87D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB8735B-E1BD-4077-B072-08D76EA87D14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99FF8006-417F-4C94-8A36-944C0BE4B73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FF8006-417F-4C94-8A36-944C0BE4B73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FF8006-417F-4C94-8A36-944C0BE4B73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FF8006-417F-4C94-8A36-944C0BE4B73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46C1B13E-DCB6-4976-A214-A18C23F789DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C1B13E-DCB6-4976-A214-A18C23F789DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C1B13E-DCB6-4976-A214-A18C23F789DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C1B13E-DCB6-4976-A214-A18C23F789DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE10ADE-5EF8-429C-8016-5FA4F2D7D7BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE10ADE-5EF8-429C-8016-5FA4F2D7D7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE10ADE-5EF8-429C-8016-5FA4F2D7D7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE10ADE-5EF8-429C-8016-5FA4F2D7D7BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD9935C-8EBE-4B15-A229-200E46F320BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD9935C-8EBE-4B15-A229-200E46F320BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD9935C-8EBE-4B15-A229-200E46F320BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD9935C-8EBE-4B15-A229-200E46F320BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFD40B7-BD7B-44C5-992B-42419E4B05EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFD40B7-BD7B-44C5-992B-42419E4B05EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFD40B7-BD7B-44C5-992B-42419E4B05EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFD40B7-BD7B-44C5-992B-42419E4B05EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3CFB87-645F-42DF-973D-F4F18FF88EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3CFB87-645F-42DF-973D-F4F18FF88EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3CFB87-645F-42DF-973D-F4F18FF88EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3CFB87-645F-42DF-973D-F4F18FF88EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0C7502-E4CE-4D8A-9547-E2EF85689F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0C7502-E4CE-4D8A-9547-E2EF85689F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0C7502-E4CE-4D8A-9547-E2EF85689F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0C7502-E4CE-4D8A-9547-E2EF85689F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F4D069-70EA-4C5E-AD50-C3E9D18DA5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F4D069-70EA-4C5E-AD50-C3E9D18DA5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F4D069-70EA-4C5E-AD50-C3E9D18DA5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F4D069-70EA-4C5E-AD50-C3E9D18DA5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45595A1D-EB4F-4A8F-8E83-43DF5F65C1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45595A1D-EB4F-4A8F-8E83-43DF5F65C1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45595A1D-EB4F-4A8F-8E83-43DF5F65C1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45595A1D-EB4F-4A8F-8E83-43DF5F65C1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3533E1-B5E3-403C-93C7-A57378D64697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3533E1-B5E3-403C-93C7-A57378D64697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3533E1-B5E3-403C-93C7-A57378D64697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3533E1-B5E3-403C-93C7-A57378D64697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9BF2B44-68FF-4BE9-A407-9AEE95CB904E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9BF2B44-68FF-4BE9-A407-9AEE95CB904E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9BF2B44-68FF-4BE9-A407-9AEE95CB904E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9BF2B44-68FF-4BE9-A407-9AEE95CB904E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEC53C0-4E2C-4A7F-81B7-FD2EDB66003F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEC53C0-4E2C-4A7F-81B7-FD2EDB66003F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEC53C0-4E2C-4A7F-81B7-FD2EDB66003F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEC53C0-4E2C-4A7F-81B7-FD2EDB66003F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335AC5F7-D7B2-4138-8F30-5070132A734F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335AC5F7-D7B2-4138-8F30-5070132A734F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335AC5F7-D7B2-4138-8F30-5070132A734F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335AC5F7-D7B2-4138-8F30-5070132A734F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5AAD3A8-A803-40A2-B980-C5478D4BB9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5AAD3A8-A803-40A2-B980-C5478D4BB9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5AAD3A8-A803-40A2-B980-C5478D4BB9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5AAD3A8-A803-40A2-B980-C5478D4BB9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EC905AF-22E2-477A-88E0-07B84F52CE1A}
+	EndGlobalSection
+EndGlobal

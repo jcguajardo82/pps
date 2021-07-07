@@ -1,0 +1,9 @@
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.PayerAuth.Compatibility\bin\Debug\netstandard2.0\Soriana.PPS.PayerAuth.Common.Compatibility.deps.json
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.PayerAuth.Compatibility\bin\Debug\netstandard2.0\Soriana.PPS.PayerAuth.Common.Compatibility.dll
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.PayerAuth.Compatibility\bin\Debug\netstandard2.0\Soriana.PPS.PayerAuth.Common.Compatibility.pdb
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.PayerAuth.Compatibility\obj\Debug\netstandard2.0\Soriana.PPS.PayerAuth.Common.Compatibility.csprojAssemblyReference.cache
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.PayerAuth.Compatibility\obj\Debug\netstandard2.0\Soriana.PPS.PayerAuth.Common.Compatibility.AssemblyInfoInputs.cache
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.PayerAuth.Compatibility\obj\Debug\netstandard2.0\Soriana.PPS.PayerAuth.Common.Compatibility.AssemblyInfo.cs
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.PayerAuth.Compatibility\obj\Debug\netstandard2.0\Soriana.PPS.PayerAuth.Common.Compatibility.csproj.CoreCompileInputs.cache
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.PayerAuth.Compatibility\obj\Debug\netstandard2.0\Soriana.PPS.PayerAuth.Common.Compatibility.dll
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.PayerAuth.Compatibility\obj\Debug\netstandard2.0\Soriana.PPS.PayerAuth.Common.Compatibility.pdb

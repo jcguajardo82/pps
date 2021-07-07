@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Soriana.PPS.DecisionManager.CreateDecision": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7011 --pause-on-error --cors *"
+    }
+  }
+}

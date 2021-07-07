@@ -1,0 +1,15 @@
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.DecisionManager.Common\bin\Release\Soriana.PPS.DecisionManager.Common.dll
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.DecisionManager.Common\bin\Release\Soriana.PPS.DecisionManager.Common.pdb
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.DecisionManager.Common\bin\Release\CyberSource.Base.dll
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.DecisionManager.Common\bin\Release\CyberSource.Clients.dll
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.DecisionManager.Common\bin\Release\Newtonsoft.Json.dll
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.DecisionManager.Common\bin\Release\CyberSource.Clients.xml
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.DecisionManager.Common\bin\Release\CyberSource.Clients.dll.config
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.DecisionManager.Common\bin\Release\Newtonsoft.Json.xml
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.DecisionManager.Common\obj\Release\Soriana.PPS.DecisionManager.Common.csprojAssemblyReference.cache
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.DecisionManager.Common\obj\Release\Soriana.PPS.DecisionManager.Common.csproj.CoreCompileInputs.cache
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.DecisionManager.Common\obj\Release\Soriana.PPS.DecisionManager.Common.csproj.CopyComplete
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.DecisionManager.Common\obj\Release\Soriana.PPS.DecisionManager.Common.dll
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.DecisionManager.Common\obj\Release\Soriana.PPS.DecisionManager.Common.pdb
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.DecisionManager.Common\bin\Release\System.IdentityModel.dll
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.DecisionManager.Common\bin\Release\System.ServiceModel.dll

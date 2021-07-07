@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Soriana.PPS.DecisionManager.Common.Compatibility</id>
+    <version>1.0.0</version>
+    <authors>Soriana.PPS.DecisionManager.Common.Compatibility</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Proyecto de compatibilidad con Cybersource .Net Framework para notificación de estatus de autorización.</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Soriana.PPS.DecisionManager.Common" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="3.1.15" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.PayerAuth.Compatibility\bin\Debug\netstandard2.1\Soriana.PPS.DecisionManager.Common.Compatibility.dll" target="lib\netstandard2.1\Soriana.PPS.DecisionManager.Common.Compatibility.dll" />
+  </files>
+</package>

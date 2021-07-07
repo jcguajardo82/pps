@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Soriana.PPS.PayerAuth.Enrollment": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7014 --pause-on-error --cors *"
+    }
+  }
+}

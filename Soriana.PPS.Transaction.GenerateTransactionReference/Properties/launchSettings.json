@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Soriana.PPS.Control.GenerateTransactionReference": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7018 --pause-on-error --cors *"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Soriana.PPS.DecisionManager.NotifyAuthentication": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7016 --pause-on-error --cors *"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Soriana.ProcesadorPago.TokenManagement.EliminarCliente": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7021 --pause-on-error --cors *"
+    }
+  }
+}

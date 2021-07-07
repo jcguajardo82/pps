@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Soriana.PPS.StartOrderPaymentRequest": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7010 --pause-on-error --cors *"
+    }
+  }
+}

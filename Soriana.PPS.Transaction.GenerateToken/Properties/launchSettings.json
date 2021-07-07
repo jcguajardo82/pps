@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Soriana.PPS.Security.GenerateToken": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7017 --pause-on-error --cors *"
+    }
+  }
+}

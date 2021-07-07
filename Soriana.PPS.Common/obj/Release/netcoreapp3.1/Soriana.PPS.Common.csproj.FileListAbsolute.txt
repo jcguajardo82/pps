@@ -1,0 +1,9 @@
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.Common\bin\Release\netcoreapp3.1\Soriana.PPS.Common.deps.json
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.Common\bin\Release\netcoreapp3.1\Soriana.PPS.Common.dll
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.Common\bin\Release\netcoreapp3.1\Soriana.PPS.Common.pdb
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.Common\obj\Release\netcoreapp3.1\Soriana.PPS.Common.csprojAssemblyReference.cache
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.Common\obj\Release\netcoreapp3.1\Soriana.PPS.Common.AssemblyInfoInputs.cache
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.Common\obj\Release\netcoreapp3.1\Soriana.PPS.Common.AssemblyInfo.cs
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.Common\obj\Release\netcoreapp3.1\Soriana.PPS.Common.csproj.CoreCompileInputs.cache
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.Common\obj\Release\netcoreapp3.1\Soriana.PPS.Common.dll
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.Common\obj\Release\netcoreapp3.1\Soriana.PPS.Common.pdb

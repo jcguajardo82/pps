@@ -1,0 +1,4 @@
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.PayerAuth.Compatibility\obj\Debug\netstandard2.0\Soriana.PPS.DecisionManager.Common.Compatibility.csprojAssemblyReference.cache
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.PayerAuth.Compatibility\obj\Debug\netstandard2.0\Soriana.PPS.DecisionManager.Common.Compatibility.AssemblyInfoInputs.cache
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.PayerAuth.Compatibility\obj\Debug\netstandard2.0\Soriana.PPS.DecisionManager.Common.Compatibility.AssemblyInfo.cs
+C:\Develop\SorianaRepo\ImplementarPayerAuth\Codigo\Soriana.PPS\Soriana.PPS.PayerAuth.Compatibility\obj\Debug\netstandard2.0\Soriana.PPS.DecisionManager.Common.Compatibility.csproj.CoreCompileInputs.cache
